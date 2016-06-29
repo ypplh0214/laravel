@@ -12,5 +12,33 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+
+Route::get('home/register', function () {
+    return view('home/register');
+});
+
+Route::get('home/passport', function () {
+    return view('home/passport');
+});
+
+Route::get('home/cart', function () {
+    return view('home/cart');
+});
+
+Route::get('home/order', function () {
+    return view('home/order');
+});
+
+Route::get('home/list', function () {
+    return view('home/list');
+});
+
+Route::get('home/item', function () {
+    return view('home/item');
+});
+
+Route::get('home/homepage', function () {
+    return view('home/homepage');
 });

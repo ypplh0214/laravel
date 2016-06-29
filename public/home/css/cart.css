@@ -1,0 +1,254 @@
+
+/******************************** 公共样式 ***********************************/
+html,span,body,div,dl,dd,ul,li,i,a,h1,h3,h2,h4,h5,h6,img,label,form,p,i{margin:0;padding:0;}
+.clear, .clr { clear: both;  display: block;  font-size: 0;  height: 0;  line-height: 0;  overflow: hidden;}
+ol,ul,li{list-style: outside none none;}
+body { background: #fff none repeat scroll 0 0; color: #666;  font: 12px/150% Arial,Verdana,"宋体";}
+em, i, u {font-style: normal;}
+a {  color: #666;  text-decoration: none;}
+a:hover {  color: #c81623;}
+img {border:0 none; vertical-align:middle}
+.w {margin:0 auto; width:990px;}
+.clearfix::after{content:".";display:block;visibility:hidden;height:0;clear:both;}
+/**************************************************************** top nav stat***********************************************************************************/
+
+/**=========================== warp css ===============================**/
+
+#shortout-2014{width:100%; height:30px; line-height:30px;background:#f1f1f1}
+#shortout-2014 .w .fl {float:left}
+#shortout-2014 .w .fl > li {float:left; height:30px; position:relative;}
+#shortout-2014 .w .fl > li .cw-icon {padding:0 25px 0 10px; cursor:default; position:relative;line-height:30px;}
+
+/**========================= top nav left =============================**/
+#shortout-2014 .ci-right {	display:block; height:7px; position:absolute; top:12px; right:8px;overflow:hidden;
+												color:#6a6a6a;font:400 15px/15px "consolas"; 	
+											}
+#shortout-2014 .ci-right s {position:relative; top:-8px; text-decoration:none;}
+
+/**========================= top nav right ============================**/
+
+/**------------------------- warp css ----------------------------**/
+#shortout-2014 .w ul.fr {float:right;}
+#shortout-2014 .w ul.fr li {float:left; height:30px; padding:0 2px; position:relative;}
+#shortout-2014 .w ul.fr li .dt {float:left; padding:0 8px;}
+#shortout-2014 .w ul.fr li a{font:400 12px/30px Arial,Verdana,"宋体";}
+#shortout-2014 .w ul.fr li.spacer {width:1px; height:12px; background:#000; padding:0; margin-top:9px;}
+
+/**----------------------- ttbar-login --------------------------**/
+
+#shortout-2014 .w ul.fr li.ttbar-login {margin-right:10px;}
+#shortout-2014 .w ul.fr li.ttbar-login .link-login {font-family:"verdana"}
+#shortout-2014 .w ul.fr li.ttbar-login .style-red {color:#c81623;}
+
+/**----------------------- ttbar-myjd --------------------------**/
+
+#shortout-2014 .w ul.fr #ttbar-myjd .dt{padding-right:25px;width:49px;}
+
+/**----------------------- ttbar-apps --------------------------**/
+
+#shortout-2014 .w ul.fr #ttbar-apps .dt{padding-left:25px; padding-right:25px; position:relative;} 
+#shortout-2014 .w ul.fr #ttbar-apps .dt .ci-left{ width:15px; height:20px; background:url("../img/jd2015img.png") no-repeat 0 0;
+													display:block; position:absolute; top:5px; left:7px; overflow:hidden;												
+													} 
+	
+/**----------------------- ttbar-atte --------------------------**/
+#shortout-2014 .w ul.fr #ttbar-atte .dt{padding-right:25px;width:49px;} 
+
+/**----------------------- ttbar-serv --------------------------**/
+#shortout-2014 .w ul.fr #ttbar-serv .dt{padding-right:25px;width:49px;} 
+
+/**----------------------- ttbar-navs --------------------------**/
+#shortout-2014 .w ul.fr #ttbar-navs .dt{padding-right:25px;width:49px;} 
+
+/************************************************************************** top nav end ***********************************************************************************/
+
+
+/************************************************************************** header start **********************************************************************************/
+.header {padding:15px 0 10px;}
+#logo {float:left; width:270px; padding-left:5px; position:relative}
+#logo .link2 {width:100px; height:40px; line-height:99em; display:block; overflow:hidden;background:#fff;position:absolute;top:8px;right:0;}
+#logo .link2 b {width:100px; height:40px; line-height:99em; display:block; overflow:hidden;background:url("../img/cart-icon.png") no-repeat;position:absolute;top:0;right:0;}
+
+.cart-search {height:24px; float:right;margin-top:20px; border:2px solid #c91623;background:#c91623;overflow:hidden;}
+.cart-search .itxt {border:0 none; height:18px; width:260px; padding:3px 5px; line-height:18px;}
+.header .btn-img, .header .button {border:0 none; cursor:pointer; margin:0; padding:0;}
+.cart-search .button {width:48px; height:24px; color:#fff; background:#c91623;display:inline-block; text-align:center;vertical-align:top;font-weight:700;}
+
+/************************************************************************** header  end **********************************************************************************/
+
+
+/************************************************************************* container start *******************************************************************************/
+/*============================ w start ============================*/
+#container .nologin-tip {line-height:25px; padding:10px 20px; margin-bottom:20px; border:1px solid #edd28b;background:#fffdee;color:#f70;}
+.nologin-tip .wicon {width:16px; height:16px; display:inline-block; margin-right:10px; overflow:hidden; vertical-align:middle; background:url("../img/icon16.png")no-repeat 0 0;}
+.nologin-tip .btn-1 {display:inline-block;border:0 none; border-radius:3px;height:25px; line-height:25px; margin-left:10px; color:#fff; 
+						padding:0 10px; background-color:#ed4649; background-image:linear-gradient(to top,#e74649 0px,#df3134 100%;)
+						font-size:12px; font-family:arial,"microsoft yahei";font-weight:normal;transition:all 0.2s ease-out 0s;vertical-align:middle;
+				}
+#container .cart-filter-bar {margin-top:10px;overflow:hidden;}
+.cart-filter-bar .switch-cart {float:left; height:26px; overflow:hidden; position:relative;}
+.cart-filter-bar .switch-cart-item {float:left; line-height:26px; height:26px; text-align:center; cursor:pointer;padding:0 0 10px;
+										overflow:hidden; position:relative;margin:5px 30px 0 0; font-size:16px; font-weight:700;
+								}
+.cart-filter-bar .switch-cart li.curr, .cart-filter-bar .switch-cart li.curr a {color: #e4393c;}
+.cart-filter-bar .switch-cart li .number {font-family:verdana; font-size:14px;}
+
+.cart-store::atfer {clear:both; content:".";display:block;height:0;visibility:hidden;}
+.cart-filter-bar .cart-store {float:right; display:block; margin-bottom:10px; padding-left:122px; position:relative; z-index:5;}
+.cart-store .label {float:left; line-height:26px;}
+
+#jdarea {height:26px; margin:0;cursor:default; float:left; position:relative; z-index:3;}
+.ui-area-wrap .ui-area-text-wrap {border:1px solid #cecbce; float:left; height:23px; line-height:23px; padding:0 20px 0 4px; overflow:hidden;position:relative;top:0;}
+.ui-area-wrap .ui-area-text-wrap b {display:block;width:17px; height:24px; background:url("../img/area_arrow.png")no-repeat 0 0; overflow:hidden;
+										position:absolute; top:0; right:0;
+								}
+
+/*============================ w-line start ============================*/
+.w-line {background:#e0e0e0; height:1px; position:relative;}
+.w-line .floater {background:#e4393c; height:2px; position:absolete; left:0; overflow:hidden;}
+/*============================ w-line  end ============================*/
+
+/*============================ w  end ============================*/
+
+/*============================ cart-wrap start ============================*/
+
+/*----------------- cart-thead start -------------------*/
+.cart-warp .cart-thead::atfer {content:".";visibility:hidden;display:block;clear:both;height:0;}
+.cart-warp .cart-thead {border-style:none solid solid;border-width:0 1px 1px; border-color:#e9e9e9;display:block;
+							height:32px; line-height:32px; margin:0 0 10px; padding:5px 0;background:#f3f3f3;
+					}
+.cart-main .cart-thead .column {float:left;}
+.cart-main .cart-thead .t-checkbox {width:122px; height:18px; line-height:18px; padding-left:11px; padding-top:7px;}
+.cart-main .cart-thead .t-checkbox .cart-checkbox {float:left; margin-right:5px; position:relative; z-index:3;}
+.cart-main .jdcheckbox {float:none; margin:0 3px 0 0;padding:0; position:relative; vertical-align:middle; z-index:3;}
+.cart-main .cart-thead .t-goods {width:268px;}
+.cart-main .cart-thead .t-props {width:80px; height:32px; padding:0 20px;}
+.cart-main .cart-thead .t-price {width:120px;  padding-right:40px; text-align:right;}
+.cart-main .cart-thead .t-quantity {width:80px; text-align:center;}
+.cart-main .cart-thead .t-sum {width:100px; text-align:right; padding-right:40px;}
+.cart-main .cart-thead .t-action {width:75px;}
+/*------------------ cart-thead end --------------------*/
+
+/*------------------ cart-list start --------------------*/
+/********** shop start **********/
+.cart-item-list {margin-bottom:20px;}
+.cart-tbody .shop {height:30px; line-height:30px; padding-left:11px; font-weight:bold;}
+.cart-checkbox {float:left;position:relative; z-index:3; margin-right:5px;}
+.cart-tbody .shop .shop-txt {float:left; width:538px;}
+.cart-tbody .shop .shop-txt a {display:inline-block;background:url("../img/cart-icons-new.png") no-repeat 0 -177px;width:54px; height:18px;
+								vertical-align:middle;color:#e4393c; overflow:hidden; line-height:99em;
+							}
+/********** shop  end **********/
+
+/********** item-list start **********/
+.item-list  {border-style:solid; border-width:2px 1px 1px; border-color:#aaa #f1f1f1 #f1f1f1; background:#fff;}
+
+.item-list .item-single:first-child, .item-list .item-suit:first-child, .item-list .item-full:first-child {border-top: 0 none;}
+.cart-tbody .item-full {background:url("../img/cart-line-02.png") repeat-y scroll -9px 0; position:relative }
+
+.cart-tbody .item-header::after {clear:both; content:"."; visibility:hidden; display:block;height:0;}
+.cart-tbody .item-full .item-header {background:#fff; height:26px; position:relative; z-index:2;}
+.cart-tbody .item-header .f-txt {float:left; text-overflow:ellipsis; white-space:nowrap; width:750px;}
+.cart-tbody .item-header .f-price {width:100px; line-height:13px; text-align:right; float:left; color:#333;font-family:verdana;}
+.cart-tbody .item-header .f-price strong {color:#333; font-weight:normal}
+/********** item-list  end **********/
+
+/********** cart-floatbar start **********/
+.cart-toolbar {background:#fff; border:1px solid #f0f0f0; height:50px; position:relative;}
+.toolbar-wrap {margin:0 auto; position:relative; width:988px;}
+.toolbar-wrap .options-box {height:50px; position:relative;}
+.toolbar-wrap .select-all {float:left;height:18px;line-height:18px;padding:16px 0 16px 9px; white-space:nowarp;}
+.toolbar-wrap .operation {float:left; height:50px; line-height:50px; width:210px;}
+.toolbar-wrap .operation a {float:left; color:#666; margin-left:25px;}
+
+.toolbar-right {height:52px; width:710px;position:absolute;top:-1px;right:0;}
+.toolbar-right .normal {height:52px;}
+.toolbar-right .normal .comm-right {float:right; width:710px;}
+.toolbar-wrap .btn-area {float:right;}
+.toolbar-right .normal .submit-btn {background:#e54346; color:#fff; display:block;width:96px;height:52px;line-height:52px;overflow:hidden;
+										font-family:"微软雅黑"; font-size:18px; position:relative;text-align:center;
+								}
+.toolbar-right .normal .submit-btn b {display:block; width:96px; height:52px; background:url("../img/cart-submit-btn-new.png")no-repeat 0 0;
+										overflow:hidden; position:absolute; top:0; left:0;
+								}
+
+.toolbar-wrap .price-sum {color:#666; height:43px; width:auto; float:right; line-height:20px; margin:7px 20px 0 10px;}
+.toolbar-wrap .price-sum .txt {color:#999; float:left; text-align:right; width:110px;}
+.toolbar-wrap .price-sum .price em {color:#e4393c; font-size:16px; font-weight:700; }
+
+.toolbar-wrap .amount-sum {color:#999; cursor:pointer;float:right;height:44px;line-height:20px; margin:7px 0 0;}
+.toolbar-wrap .amount-sum em {color:#e4393c; font-family:verdana; font-weight:700; margin:0 3px;}
+.toolbar-wrap .amount-sum b {display:inline-block; width:9px; height:5px; margin:-5px 0 0 5px; overflow:hidden; vertical-align:middle;
+								background:url("../img/cart-icons-new.png") no-repeat -45px -91px;
+						}
+/********** cart-floatbar  end **********/
+
+/*------------------ cart-list  end --------------------*/
+
+
+/*============================ cart-wrap  end ============================*/
+
+
+/************************************************************************* container  end ********************************************************************************/
+
+
+
+/************************************************************************** footer start **********************************************************************************/
+
+#lazy-footer {height:355px; width:1349px}
+
+/****************************** service2014 *****************************/
+#service-2014{margin-bottom:20px;}
+
+
+/********************************************************** service2014 w start **********************************************************/
+
+
+/*============================ fore1~5 ============================*/
+#service-2014 .w dl {width:199px; float:left;}
+#service-2014 .w dl dt {padding:6px 0; font:400 16px/24px "microsoft yahei"}
+#service-2014 .w dl dt dd {line-height:20px;}
+/*============================ fore5 ============================*/
+#service-2014 .w dl.fore5 {width:100px;}
+
+
+/********************************************************* service2014 w end **************************************************************/
+
+
+
+/**********************************************************  w start **********************************************************************/
+
+#footer-2014 {padding:20px 0 30px; border-top:1px solid #e5e5e5; text-align:center;}
+/**============================== links start ===========================**/
+
+#footer-2014 .links a {margin:0 10px;}
+/**============================== links end ============================**/
+
+/**============================ copyright start =========================**/
+#footer-2014 .copyright {margin:10px 0;}
+
+/**============================ copyright end ===========================**/
+
+/**========================== authentication start =======================**/
+#footer-2014 .authentication a{margin:0 5px;}
+
+/**========================== authentication end =======================**/
+
+
+/************************************************************  w end *******************************************************************/
+
+/************************************************************************** footer  end ***********************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

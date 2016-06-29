@@ -1,0 +1,476 @@
+
+/******************************** 公共样式 ***********************************/
+body,div,dl,dd,ul,li,i,a,h3,h2,p,i{margin:0;padding:0;}
+.clear, .clr { clear: both;  display: block;  font-size: 0;  height: 0;  line-height: 0;  overflow: hidden;}
+ol,ul,li{list-style: outside none none;}
+body { background: #fff none repeat scroll 0 0; color: #666;  font: 12px/150% Arial,Verdana,"宋体";}
+a {  color: #666;  text-decoration: none;}
+a:hover {  color: #c81623;}
+img {border:0 none; vertical-align:middle;}
+h2,h3 {font-family:"microsoft yahei"; font-weight:normal;}
+em,i,u {font-style:normal;}
+
+.clearfix::after {clear:both; content:"."; display:block;height:0;visibility:hidden;}
+.m .mt {overflow:hidden;}
+
+/****************************************** top nav stat**********************************************/
+
+/**=========================== warp css ===============================**/
+
+#shortout-2014{width:100%; height:30px; line-height:30px;background:#f1f1f1}
+#shortout-2014 .w {width:1210px; margin:0 auto;}
+#shortout-2014 .w .fl {float:left}
+#shortout-2014 .w .fl > li {float:left; height:30px; position:relative;}
+#shortout-2014 .w .fl > li .cw-icon {padding:0 25px 0 10px; cursor:default; position:relative;line-height:30px;}
+
+/**=============================== top nav left ===================================**/
+#shortout-2014 .ci-right {	display:block; height:7px; position:absolute; top:12px; right:8px;overflow:hidden;
+												color:#6a6a6a;font:400 15px/15px "consolas"; 	
+											}
+#shortout-2014 .ci-right s {position:relative; top:-8px; text-decoration:none;}
+
+/**=============================== top nav right ===================================**/
+
+/**------------------------- warp css ----------------------------**/
+#shortout-2014 .w ul.fr {float:right;}
+#shortout-2014 .w ul.fr li {float:left; height:30px; padding:0 2px; position:relative;}
+#shortout-2014 .w ul.fr li .dt {float:left; padding:0 8px;}
+#shortout-2014 .w ul.fr li a{font:400 12px/30px Arial,Verdana,"宋体";}
+#shortout-2014 .w ul.fr li.spacer {width:1px; height:12px; background:#000; padding:0; margin-top:9px;}
+
+/**----------------------- ttbar-login --------------------------**/
+
+#shortout-2014 .w ul.fr li.ttbar-login {margin-right:10px;}
+#shortout-2014 .w ul.fr li.ttbar-login .link-login {font-family:"verdana"}
+#shortout-2014 .w ul.fr li.ttbar-login .style-red {color:#c81623;}
+
+/**----------------------- ttbar-myjd --------------------------**/
+
+#shortout-2014 .w ul.fr #ttbar-myjd .dt{padding-right:25px;width:49px;}
+
+/**----------------------- ttbar-apps --------------------------**/
+
+#shortout-2014 .w ul.fr #ttbar-apps .dt{padding-left:25px; padding-right:25px; position:relative;} 
+#shortout-2014 .w ul.fr #ttbar-apps .dt .ci-left{ width:15px; height:20px; background:url("../img/jd2015img.png") no-repeat 0 0;
+													display:block; position:absolute; top:5px; left:7px; overflow:hidden;												
+													} 
+	
+/**----------------------- ttbar-atte --------------------------**/
+#shortout-2014 .w ul.fr #ttbar-atte .dt{padding-right:25px;width:49px;} 
+
+/**----------------------- ttbar-serv --------------------------**/
+#shortout-2014 .w ul.fr #ttbar-serv .dt{padding-right:25px;width:49px;} 
+
+/**----------------------- ttbar-navs --------------------------**/
+#shortout-2014 .w ul.fr #ttbar-navs .dt{padding-right:25px;width:49px;} 
+
+/****************************************** top nav end **********************************************/
+
+
+
+/****************************************** search start **********************************************/
+
+/**============================== LOGO =================================**/
+.sw {width:1210px;margin:0 auto;overflow:hidden;}
+.sw #logo-2014{width:362px;height:60px;padding:20px 0;float:left;}
+.sw #logo-2014 a.logo {display:block;width:270px;height:60px;background:url("../img/logo-201305.png") no-repeat}
+
+/**============================ search =================================**/
+.sw #search-2014{width:538px;height:40px;margin-top:25px;float:left}
+.sw #search-2014 #form input{width:446px;height:24px;border-width:2px 0 2px 2px;border-color:#b61d1d;border-style:solid;padding:4px;
+								float:left;font-size:14px; line-height:24px; font-family:"microsoft yahei";color:#333;	
+							}
+.sw #search-2014 #form button{width:82px;height:36px;border:medium none;background:#b61d1d;
+								float:left;color:#fff;font-size:16px;font-family:"microsoft yahei";cursor:pointer;
+							}
+							
+/**========================= shopping cart ============================**/
+.sw #settleup-2014 {width:141px;float:right;margin-top:25px; margin-right:65px;position:relative}
+.sw #settleup-2014 .ci-icon{width:75px;height:34px;line-height:34px;text-align:center;padding:0 28px 0 36px;
+								border:1px solid #dfdfdf;background:#f9f9f9;cursor:default;position:relative;
+								
+							}
+.sw #settleup-2014 .ci-icon .ci-left{width:18px;height:16px;background:url("../img/jd2015img.png") no-repeat 0 -58px;
+										display:block;position:absolute; top:9px;left:18px;
+									}
+									
+.sw #settleup-2014 .ci-icon .ci-right{width:7px;height:13px;color:#999;display:block;position:absolute; top:11px;right:10px;
+										font:400 13px/13px simsun;
+									 }
+
+.sw #settleup-2014 .ci-icon #shopping-amount{min-width:12px;background-color:#c81623;display:inline-block;border-radius:7px 7px 7px 0;
+												font-size:12px; line-height:12px; color:#fff; text-align:center;
+												position:absolute; top:-4px; left:104px;padding:1px 2px;
+									 }
+.sw #settleup-2014 .ci-icon a {text-align:center;line-height:34px; padding-left:5px;}
+
+/**============================ hotword ================================**/
+.sw #hotword-2014 {width:518px; height:20px; line-height:20px; float:left; overflow:hidden}
+.sw #hotword-2014 a {margin-right:10px}
+.sw #hotword-2014 a.style_red {color:#b61d1d}
+.sw #hotword-2014 a:hover {color:#b61d1d}
+
+/****************************************** search end **********************************************/
+
+/****************************************** nav-2014 start **********************************************/
+
+/**============================ nav2014 ================================**/
+#nav-2014{height:44px; border-bottom:2px solid #b1191a;}
+#nav-2014 .w {height:44px; width:1210px; position:relative; margin:0 auto;}
+#nav-2014 .w #categorys-2014 {float:left; width:210px; height:44px; position:relative}
+#nav-2014 .w #categorys-2014 .dt {height:44px;}
+#nav-2014 .w .dt a {width:190px; height:44px; display:block; background:#b1191a; padding:0 10px;
+						color:#fff; font:400 15px/44px "microsoft yahei" ;
+					}
+/**------------------- category dd-inner 公共样式 ---------------------**/
+#categorys-2014 .dd {height:466px; margin-top:2px; background:#c81623;}
+#categorys-2014 .dd-inner .item {height:31px; border-left:1px solid #b61d1d; color:#fff; position:relative;z-index:1;}
+#categorys-2014 .dd-inner .item h3 {height:31px; padding:0 10px; position:absolute;z-index:2;font:400 14px/31px "microsoft yahei"}
+#categorys-2014 .dd-inner .item a {color:#fff;}
+#categorys-2014 .dd-inner .item i {width:4px; height:14px; font:400 9px/14px "consolas"; position:absolute; top:9px; right:14px;}
+
+/**------------------- category dropdown-layer 公共样式 ---------------------**/
+#categorys-2014 .dropdown-layer {display:none;width:999px; background:#f7f7f7; border:1px solid #b61d1d; position:absolute; top:45px; left:209px; overflow:hidden;}
+
+
+
+/**============================ navitems ================================**/
+#nav-2014 .w #navitems-2014 {height:44px; float:left;}
+#navitems-2014 ul,#navitems-2014 li,#navitems-2014 a{float:left}
+#nav-2014 .w #navitems-2014 a{height:44px; text-align:center; padding:0 20px; font:400 15px/44px "microsoft yahei"; color:#333}
+#nav-2014 .w #navitems-2014 a:hover {color:#b1191a;}
+
+/**============================ treasure ================================**/
+
+#nav-2014 .w #treasure {}
+
+/****************************************** nav-2014 end **********************************************/
+
+/****************************************** focus start **********************************************/
+
+/**============================ 公共样式 ================================**/
+#focus {position:relative;}
+#focus .slider{height:466px;}
+#focus .slider-panel .inner,#focus .slider-extra{ width:1210px;}
+/**============================ 公共样式 ================================**/
+#focus .slider-panel { width:100%; position:absolute;}
+#focus .slider-panel .inner {height:466px; margin:0 auto; overflow:hidden;}
+#focus .slider-panel a {width:730px; height:454px; display:block; margin:12px 250px 0 220px; overflow:hidden;}
+
+
+/******************************************** focus end **********************************************/
+
+
+/******************************************** focus-extra start **********************************************/
+/**============================ 公共样式 ================================**/
+#focus-extra {width:1210px; position:relative; top:-466px; z-index:8; margin:0 auto;}
+#lifeserv,#news {position:absolute; right:0;background:rgba(255,255,255,0.85);}
+#news .mt,#lifeserv .mt {height:43px; line-height:43px; padding:0 15px; border-bottom:1px dotted #e8e8e7}
+#lifeserv h2,#news h2 {float:left; font-size:16px;}
+/**============================ 公共样式 ================================**/
+
+/**============================= #news =================================**/
+#news {top:12px; height:200px; width:248px; overflow:hidden; border-color:#e4e4e4; border-style:solid solid none; border-width:1px 1px 0;}
+#news .mt .extra {float:right; font-family:consolas;}
+#news .mc {height:140px; padding:8px 0 0 15px; overflow:hidden;}
+#news .mc li {height:27px; line-height:27px; width:210px; overflow:hidden;}
+#news .mc li span {font-weight:700; margin-right:5px;}
+
+/**============================= #lifeserv =================================**/
+#lifeserv { overflow:hidden; width:248px; border-style:dashed solid solid; border-width:1px; border-color:#e4e4e4; position:absolute; top:213px;}
+#lifeserv ul {width:260px; height:209px; position:relative; overflow:hidden;}
+#lifeserv li {width:62px; height:70px; border-right:1px solid #e8e8e7; float:left;display:inline;
+				border-bottom:1px solid #e8e8e7;position:relative; overflow:hidden;
+			}
+#lifeserv li a {width:62px;height:28px;line-height:28px;display:block;text-align:center;position:relative;}
+#lifeserv .cw-icon i {display:block; position:absolute; overflow:hidden;}
+#lifeserv .ci-left {width:25px; height:25px; left:18px;}
+
+/**-------------------- #lifeserv hover start----------------------**/
+#lifeserv .ci-left {top:13px;}
+#lifeserv .fore1 .ci-left {background:url("../img/5547211fN2f79c420.png") 0 0;}
+#lifeserv .fore1 .cw-icon:hover .ci-left {background:url("../img/5547211fN2f79c420.png") -25px 0}
+
+#lifeserv .fore2 .ci-left {background:url("../img/5547211fN2f79c420.png") 0px -25px;}
+#lifeserv .fore2 .cw-icon:hover .ci-left {background:url("../img/5547211fN2f79c420.png") -25px -25px}
+
+#lifeserv .fore3 .ci-left {background:url("../img/5547211fN2f79c420.png") 0px -50px;}
+#lifeserv .fore3 .cw-icon:hover .ci-left {background:url("../img/5547211fN2f79c420.png") -25px -50px}
+
+#lifeserv .fore4 .ci-left {background:url("../img/5547211fN2f79c420.png") 0px -75px;}
+#lifeserv .fore4 .cw-icon:hover .ci-left {background:url("../img/5547211fN2f79c420.png") -25px -75px}
+
+#lifeserv .fore5 .ci-left {background:url("../img/5547211fN2f79c420.png") 0px -100px;}
+#lifeserv .fore5 .cw-icon:hover .ci-left {background:url("../img/5547211fN2f79c420.png") -25px -100px}
+
+#lifeserv .fore6 .ci-left {background:url("../img/5547211fN2f79c420.png") 0px -125px;}
+#lifeserv .fore6 .cw-icon:hover .ci-left {background:url("../img/5547211fN2f79c420.png") -25px -125px}
+
+#lifeserv .fore7 .ci-left {background:url("../img/5547211fN2f79c420.png") 0px -150px;}
+#lifeserv .fore7 .cw-icon:hover .ci-left {background:url("../img/5547211fN2f79c420.png") -25px -150px}
+
+#lifeserv .fore8 .ci-left {background:url("../img/5547211fN2f79c420.png") 0px -175px;}
+#lifeserv .fore8 .cw-icon:hover .ci-left {background:url("../img/5547211fN2f79c420.png") -25px -175px}
+
+#lifeserv .fore9 .ci-left {background:url("../img/5547211fN2f79c420.png") 0px -200px;}
+#lifeserv .fore9 .cw-icon:hover .ci-left {background:url("../img/5547211fN2f79c420.png") -25px -200px}
+
+#lifeserv .fore10 .ci-left {background:url("../img/5547211fN2f79c420.png") 0px -225px;}
+#lifeserv .fore10 .cw-icon:hover .ci-left {background:url("../img/5547211fN2f79c420.png") -25px -225px}
+
+#lifeserv .fore11 .ci-left {background:url("../img/5547211fN2f79c420.png") 0px -250px;}
+#lifeserv .fore11 .cw-icon:hover .ci-left {background:url("../img/5547211fN2f79c420.png") -25px -250px}
+
+#lifeserv .fore12 .ci-left {background:url("../img/5547211fN2f79c420.png") 0px -275px;}
+#lifeserv .fore12 .cw-icon:hover .ci-left {background:url("../img/5547211fN2f79c420.png") -25px -275px}
+
+/**-------------------- #lifeserv hover end----------------------**/
+
+/********************************************* focus-extra end ***********************************************/
+
+
+/******************************************** lazy-fn-warp start**********************************************/
+
+/**========================== lazy-today start===========================**/
+#lazy-todays {height:184px; width:1210px; margin:0 auto;}
+#todays {height:164px; margin:10px 0 20px;}
+#todays .mt {width:210px; height:151px; float:left; background:url("../img/homebg.png") -213px -136px; text-indent:-10000px;}
+.jd-clock-warp {width:210px; height:151px; position:relative; background:url("../img/homebg.png") 0 -136px;}
+
+/**------------------- jdClock start---------------------**/
+	/*圆心的白点*/
+.jd-clock::before {content:""; width:7px; height:7px; background:#fff; border-radius:50%; position:absolute; top:18px; left:18px;}
+	/*运动的灰点*/
+
+	/*分针滚动*/
+.jd-clock .jd-clock-m::after{content:""; width:5px; height:21px; background-color:#fff; border-radius:2px; position:absolute; top:-17px; left:14px;
+						transform-origin:2.5px 19.5px 0; /*animation:20s steps(60, end) 0s normal none infinite running tick-tock;*/animation:20s steps(60, end) 0s normal none infinite running tick-tock;
+				}
+	/*分针滚动*/
+.jd-clock .jd-clock-s::atfer{content:""; width:5px; height:5px; background-color:#5e5252; border-radius:50%; position:absolute; top:0; left:0; }	
+.jd-clock-s {width:5px; height:28px; position:absolute; top:-6px; left:19px; transform-origin:center bottom 0;
+				animation:10s linear 0s normal none infinite running tick-tock;
+			}
+	
+.jd-clock {width:43px; height:43px; border:7px solid #fff; border-radius:50%; position:absolute; top:31px; left:72px;}	
+#jdClockHours {width:5px; height:19px; background:#fff; border-radius:2px; position:absolute; top:5px; left:19px; transform:rotate(10deg); transform-origin:2.5px 16.5px 0;}
+.jd-clock-m {width:19px; height:5px; background:#fff; border-radius:2px; position:absolute; top:19px; left:5px;}	
+
+
+/**-------------------- jdClock end---------------------**/
+
+/**--------------------  slider start ---------------------**/
+
+#todays .slider {width:1000px; height:164px; float:left; overflow:hidden;}
+#todays .slider li {width:1000px; height:164px;}
+#todays .slider li div {float:left; overflow:hidden;}
+#todays .slider li div.fore1,#todays .slider li div.fore2,#todays .slider li div.fore3 {margin-right:1px; width:249px;}
+
+/**--------------------  slider end ----------------------**/
+
+/**--------------------  lazy-guess-like start ----------------------**/
+#lazy-guess-like {width:1210px ;margin:0 auto; }
+/*---------- guessyou start -------------*/
+#guessyou {height:269px; overflow:hidden; margin-bottom:20px;}
+#guessyou .mt {height:36px;overflow:hidden;}
+#guessyou .mt > h2 {display:inline; line-height:30px; font-size:20px; float:left; background:url("../img/homebg.png") 85px -91px;padding-right:228px;}
+#guessyou .mt > a {display:inline; float:right; background:url("../img/homebg.png") -310px -5px;padding-right:25px; margin-top:8px;}
+#guessyou .mt > a:hover {background:url("../img/homebg.png") -310px -29px;}
+
+#guessyou .mc .spacer {height:1px; position:relative; font-size:0; background:#d1d1d1;}
+#guessyou .mc {border-style:none solid solid; border-color:#ededed; border-width:0 1px 1px;}
+#guessyou .mc ul {height:210px; padding-top:20px; overflow:hidden;}
+#guessyou .mc ul li {width:201px; float:left; overflow:hidden; padding-bottom:15px;}
+#guessyou .p-img {margin-bottom:10px; text-align:center; overflow:hidden;}
+
+#guessyou .p-info{padding:0 36px; border-left:1px solid #e6e6e6}
+#guessyou .fore1 .p-info{border-left:medium none;}
+#guessyou .p-name{height:36px; margin-bottom:6px; overflow:hidden;}
+#guessyou .p-price{color:#b51d1a;font-size:18px;}
+#guessyou .p-price > i {font-size:14px;}
+/*---------- guessyou end -------------*/
+
+/*---- lazy-special-buy-v2 start----*/
+
+/**============================ 公共样式 ================================**/
+.home-special-buy-v2 .hs-tit-i {height:16px; width:28px; background:url("../img/bg.png") no-repeat;}
+.home-special-buy-v2 .hs-item {width:201px; height:200px; border-bottom:1px solid #ededed; border-right:1px solid #ededed; overflow:hidden;
+								display:inline; float:left; font-family:"microsoft yahei"; color:#666; text-align:center; position:relative;
+							}
+
+.home-special-buy-v2 .hs-item .tit span {display:inline-block; line-height:18px; vertical-align:middle;}
+.home-special-buy-v2 .hs-item .sub-tit {color:#c81623; width:100%; height:18px; overflow:hidden; position:absolute; top:47px; padding:0;}
+/**============================ 公共样式 ================================**/
+#lazy-special-buy-v2 {width:1210px; height:439px; margin-bottom:20px; }
+.home-special-buy-v2 {width:1210px; margin:0 auto;}
+.home-special-buy-v2 h2 {font-size:20px; line-height:36px;}
+
+/**************** left start *******************/
+.hs-content {width:1210px; height:402px;border-top:1px solid #ededed; border-left:1px solid #ededed; position:relative; overflow:hidden;}
+.home-special-buy-v2 .hs-content-left {width:202px; display:inline; float:left; overflow:hidden;}
+
+.home-special-buy-v2 .hs-item .tit {font-weight:700; font-size:16px; line-height:18px; height:20px; width:100%;
+									position:absolute; top:20px; text-align:center;
+								}
+.home-special-buy-v2 .hs-tit-i-l {background-position:0 center;}
+.home-special-buy-v2 .hs-tit-i-r {background-position:-30px center;}
+/**************** left end *******************/
+/**************** center start *******************/
+.home-special-buy-v2 .hs-content-center {width:404px; display:inline; float:left; overflow:hidden;}
+.hs-content-center .hs-item-main {width:403px;}
+.hs-content-center .hs-item-main > div {width:160px; position:absolute; top:60px; left:20px; text-align:center; }
+
+.hs-item-main .hs-m-tit {height:20px; line-height:18px; font-size:18px;font-weight:600; color:#333; padding-bottom:10px; overflow:hidden; }
+.hs-item-main .hs-m-subtit {height:16px; line-height:16px; font-size:16px;color:#333; padding-bottom:10px; overflow:hidden; }
+.hs-item-main .hs-m-button {display:inline-block;height:24px; line-height:24px; width:137px; font-size:16px;color:#fff; background:#e7004d; overflow:hidden; }
+ 
+.hs-item img{margin-left:0;}
+ 
+.hs-brands {width:201px; height:200px; float:left; overflow:hidden; background:#f7f7f7; 
+				border-bottom:1px solid #ededed; border-right:1px solid #ededed; margin-bottom:-1px;}
+.hs-brands .hs-brands-con {height:199px; margin-bottom:-1px; margin-right:-1px; overflow:hidden;}
+
+.hs-brands-con .item {display:inline; float:left; width:100px; height:39px; text-align:center; 
+						border-right:1px dashed #e0e0e0; border-bottom:1px dashed #e0e0e0;
+					}
+.hs-brands-con .even {border-right:medium none;}
+ 
+ /**************** center end *******************/
+
+ /**************** right start *******************/
+.hs-content-right {width:604px; display:inline; float:left; overflow:hidden;}
+.hs-content-right .hs-item .tit .tit-1 {display:inline-block; background:#dd4957; width:30px; height:16px; overflow:hidden;
+											font-size:12px; font-weight:400; line-height:16px; color:#fff; vertical-align:middle;
+									}
+.hs-content-right .hs-item {width:200px;}
+ 
+.hs-item-2row {width:400px; position:relative; }
+.hs-item2 {display:inline; float:left; height:200px; overflow:hidden; text-align:center; 
+			border-bottom:1px solid #ededed; border-right:1px solid #ededed; 
+			font-family:"microsoft yahei"; color:#666;
+		}
+.hs-item2 img{margin-left:0;}
+.hs-item-more-m {width:195px; height:111px; border-style:none none none dashed; border-width:medium medium medium 1px; 
+					border-color:#e0e0e0; margin-top:77px;
+				}
+.hs-item-more-m .statice-item-more ul {margin-left:15px;}
+.hs-item-more-m .statice-item-more ul li {width:180px; height:30px; border-bottom:0 none; overflow:hidden;
+											line-height:30px; text-align:left; white-space:normal; word-break:break-all; word-wrap:break-word;
+										}
+.statice-item-more a,.statice-item-more span {display:block;}
+.hs-item-more-m .statice-item-more ul li .tkw{color:#c81623; display:inline;}
+.home-special-buy-v2 .hs-item2 .tit {font-weight:700; font-size:16px; line-height:18px; height:20px; width:100%;
+									position:absolute; top:20px; text-align:center;
+									}
+.home-special-buy-v2 .hs-item2 .tit span {display:inline-block; line-height:18px; vertical-align:middle;}
+.home-special-buy-v2 .hs-item2 .sub-tit {width:100%; height:18px;color:#dd4957;position:absolute; top:47px; overflow:hidden; }
+.hs-content-right .hs-item2 .tit .tit-1 {display:inline-block; background:#dd4957; width:30px; height:16px; overflow:hidden;
+											font-size:12px; font-weight:400; line-height:16px; color:#fff; vertical-align:middle;
+									}
+ /**************** right  end *******************/
+ 
+ /*---- lazy-special-buy-v2 end----*/
+
+/**---------------------  lazy-guess-like end ----------------------**/
+
+
+/**=========================== lazy-today end===========================**/
+
+
+/******************************************** lazy-fn-warp end ***********************************************/
+
+
+
+/********************************************************************* footer warp start ***************************************************************************/
+
+#lazy-footer {height:457px; width:1349px;}
+
+/****************************** service2014 *****************************/
+#service-2014{margin-bottom:20px;}
+
+/************************************************************************** service2014 slogen start ******************************************************************/
+#service-2014 .slogen {height:54px; background:#f5f5f5; margin-bottom:14px; padding:20px 0; text-align:center; position:relative;}
+
+/*============================ fore1~4 ============================*/
+#service-2014 .slogen .item {display:inline-block; width:248px; height:54px; text-align:left; font:400 18px/50px "microsoft yahei";
+								position:absolute; top:20px; left:50%; vertical-align:middle;
+							}
+#service-2014 .slogen .item i {display:block; width:220px; height:54px; background-repeat:no-repeat;background-position:0 0;
+								position:absolute; top:0px; left:10px;
+							}
+#service-2014 .slogen .item b {font-size:24px; color:#c81623; padding:0 10px;}
+
+/*============================ fore1 ============================*/
+#service-2014 .slogen .fore1 {width:302px; margin-left:-604px;}
+#service-2014 .slogen .fore1 i {background-image:url("../img/service_items_1.png")}
+/*============================ fore2 ============================*/
+#service-2014 .slogen .fore2 {width:302px; margin-left:-304px;}
+#service-2014 .slogen .fore2 i {background-image:url("../img/service_items_2.png")}
+/*============================ fore1 ============================*/
+#service-2014 .slogen .fore3 {width:302px; margin-left:0px;}
+#service-2014 .slogen .fore3 i {background-image:url("../img/service_items_3.png")}
+/*============================ fore1 ============================*/
+#service-2014 .slogen .fore4 {width:302px; margin-left:304px;}
+#service-2014 .slogen .fore4 i {background-image:url("../img/service_items_4.png")}
+
+/************************************************************************** service2014 slogen end ************************************************************************/
+
+/************************************************************************** service2014 w start ****************************************************************************/
+#service-2014 .w {width:1210px; margin:0 auto; overflow:hidden}
+
+/*============================ fore1~5 ============================*/
+#service-2014 .w dl {width:199px; float:left;}
+#service-2014 .w dl dt {padding:6px 0; font:400 16px/24px "microsoft yahei"}
+#service-2014 .w dl dt dd {line-height:20px;}
+/*============================ fore5 ============================*/
+#service-2014 .w dl.fore5 {width:100px;}
+
+/*============================ coverage ============================*/
+#service-2014 .w #coverage {width:310px; height:168px; background:url("../img/20130330B_1.png") no-repeat 60px -131px;float:right;}
+#service-2014 .w #coverage .dt { padding:6px 40px 15px 80px; font:400 16px/24px "microsoft yahei"}
+#service-2014 .w #coverage .dd { padding:0 40px 15px 80px;}
+#service-2014 .w #coverage .dd p.ar { text-align:right;}
+
+
+/********************************************************************************* service2014 w end *************************************************************************/
+
+
+
+/*********************************************************************************  w start *************************************************************************/
+
+#lazy-footer .w {width:1210px; margin:0 auto;}
+#footer-2014 {padding:20px 0 30px; border-top:1px solid #e5e5e5; text-align:center;}
+/**============================== links start ===========================**/
+
+#footer-2014 .links a {margin:0 10px;}
+/**============================== links end ============================**/
+
+/**============================ copyright start =========================**/
+#footer-2014 .copyright {margin:10px 0;}
+
+/**============================ copyright end ===========================**/
+
+/**========================== authentication start =======================**/
+#footer-2014 .authentication a{margin:0 5px;}
+
+/**========================== authentication end =======================**/
+
+
+/*********************************************************************************  w end ***************************************************************************/
+
+/************************************************************************************** footer warp end**********************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

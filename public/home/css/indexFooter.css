@@ -1,0 +1,89 @@
+
+/******************************** 公共样式 ***********************************/
+body,div,ul,li,i,a,dl,dd,p,a {margin:0;padding:0;list-style-type:none;}
+.clear, .clr { clear: both;  display: block;  font-size: 0;  height: 0;  line-height: 0;  overflow: hidden;}
+ol,ul,li{list-style: outside none none;}
+body { background: #fff none repeat scroll 0 0; color: #666;  font: 12px/150% Arial,Verdana,"宋体";}
+a {  color: #666;  text-decoration: none;}
+a:hover {  color: #c81623;}
+em,i,u{font-style:normal}
+img{border:0 none; vertical-align:middle;}
+/**************************************************************************** footer warp start ***************************************************************************************/
+
+#lazy-footer {height:457px; width:1349px}
+
+/****************************** service2014 *****************************/
+#service-2014{margin-bottom:20px;}
+
+/************************************************************************** service2014 slogen start ******************************************************************/
+#service-2014 .slogen {height:54px; background:#f5f5f5; margin-bottom:14px; padding:20px 0; text-align:center; position:relative;}
+
+/*============================ fore1~4 ============================*/
+#service-2014 .slogen .item {display:inline-block; width:248px; height:54px; text-align:left; font:400 18px/50px "microsoft yahei";
+								position:absolute; top:20px; left:50%; vertical-align:middle;
+							}
+#service-2014 .slogen .item i {display:block; width:220px; height:54px; background-repeat:no-repeat;background-position:0 0;
+								position:absolute; top:0px; left:10px;
+							}
+#service-2014 .slogen .item b {font-size:24px; color:#c81623; padding:0 10px;}
+
+/*============================ fore1 ============================*/
+#service-2014 .slogen .fore1 {width:302px; margin-left:-604px;}
+#service-2014 .slogen .fore1 i {background-image:url("../img/service_items_1.png")}
+/*============================ fore2 ============================*/
+#service-2014 .slogen .fore2 {width:302px; margin-left:-304px;}
+#service-2014 .slogen .fore2 i {background-image:url("../img/service_items_2.png")}
+/*============================ fore1 ============================*/
+#service-2014 .slogen .fore3 {width:302px; margin-left:0px;}
+#service-2014 .slogen .fore3 i {background-image:url("../img/service_items_3.png")}
+/*============================ fore1 ============================*/
+#service-2014 .slogen .fore4 {width:302px; margin-left:304px;}
+#service-2014 .slogen .fore4 i {background-image:url("../img/service_items_4.png")}
+
+/************************************************************************** service2014 slogen end ************************************************************************/
+
+/************************************************************************** service2014 w start ****************************************************************************/
+#service-2014 .w {width:1210px; margin:0 auto; overflow:hidden}
+
+/*============================ fore1~5 ============================*/
+#service-2014 .w dl {width:199px; float:left;}
+#service-2014 .w dl dt {padding:6px 0; font:400 16px/24px "microsoft yahei"}
+#service-2014 .w dl dt dd {line-height:20px;}
+/*============================ fore5 ============================*/
+#service-2014 .w dl.fore5 {width:100px;}
+
+/*============================ coverage ============================*/
+#service-2014 .w #coverage {width:310px; height:168px; background:url("../img/20130330B_1.png") no-repeat 60px -131px;float:right;}
+#service-2014 .w #coverage .dt { padding:6px 40px 15px 80px; font:400 16px/24px "microsoft yahei"}
+#service-2014 .w #coverage .dd { padding:0 40px 15px 80px;}
+#service-2014 .w #coverage .dd p.ar { text-align:right;}
+
+
+/********************************************************************************* service2014 w end *************************************************************************/
+
+
+
+/*********************************************************************************  w start *************************************************************************/
+
+#lazy-footer .w {width:1210px; margin:0 auto;}
+#footer-2014 {padding:20px 0 30px; border-top:1px solid #e5e5e5; text-align:center;}
+/**============================== links start ===========================**/
+
+#footer-2014 .links a {margin:0 10px;}
+/**============================== links end ============================**/
+
+/**============================ copyright start =========================**/
+#footer-2014 .copyright {margin:10px 0;}
+
+/**============================ copyright end ===========================**/
+
+/**========================== authentication start =======================**/
+#footer-2014 .authentication a{margin:0 5px;}
+
+/**========================== authentication end =======================**/
+
+
+/*********************************************************************************  w end ***************************************************************************/
+
+/************************************************************************************** footer warp end**********************************************************************/
+

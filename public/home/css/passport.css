@@ -1,0 +1,111 @@
+
+/******************************** 公共样式 ***********************************/
+html,span,body,div,dl,dd,ul,li,i,a,h1,h3,h2,h4,h5,h6,img,label,form,p,i{margin:0;padding:0;}
+.clear, .clr { clear: both;  display: block;  font-size: 0;  height: 0;  line-height: 0;  overflow: hidden;}
+ol,ul,li{list-style: outside none none;}
+body { background:#fff; margin:0 auto; color:#666;font-size:12px; font-family:Arial,Verdana,"宋体";line-height:150%;}
+body {}
+a {  color: #666;  text-decoration: none;}
+a:hover {  color: #c81623;}
+img {border:0 none; vertical-align:middle;}
+h2,h3 {font-family:"microsoft yahei"; font-weight:normal;}
+em,i,u {font-style:normal;}
+
+.clearfix::after {clear:both; content:"."; display:block;height:0;visibility:hidden;}
+.m .mt {overflow:hidden;}
+
+.w {margin:0 auto; width:990px;}
+
+/****************************************** top w stat **********************************************/
+#logo {width:300px; height:60px; margin:10px 0 0; position:relative;}
+#logo b {display:inline-block; position:absolute; top:10px; right:0; width:110px; height:40px; background:url("../img/l-icon.png") no-repeat;}
+
+/****************************************** top w end **********************************************/
+
+/****************************************** content start **********************************************/
+#login-wrap {height:475px; margin:10px 0 20px; position:relative; z-index:5;}
+
+/************************ login form start ***************************/
+.login-form {float:right; padding:20px; width:306px; background:#fff; overflow:visible; position:relative; top:40px; z-index:4; }
+
+.login-form .login-box .mt::after {clear:both; content:""; display:block; height:0; visibility:hidden;}
+.login-box .mt {height:27px; width:306px; overflow:visible;}
+.login-box .mt h1{float:left; color:#666; font:400 20px/27px "微软雅黑"; height:27px; position:relative; top:-5px;}
+.login-box .mt .extra-r {float:right; }
+.login-box .mt .regist-link {color:#b61d1d; font-size:14px; }
+.login-box .mt .regist-link a {color:#b61d1d;  }
+.login-box .mt .regist-link a b {width:16px; height:16px; background:url("../img/pwd-icons-new.png") no-repeat -104px -75px;
+									display:inline-block; margin-right:5px; vertical-align:middle;overflow:hidden;
+							}
+
+/******************** msg-wrap start*************************/	
+.msg-wrap {height:auto !important; margin:2px 0 5px; min-height:31px;}
+.msg-wrap .msg-wran {height:18px; line-height:18px; border:1px solid #ffe57d; background:#fff6d2; padding:3px 10px 3px 40px; position:relative;}
+.msg-wrap .msg-wran b {height:17px; width:16px; background:url("../img/pwd-icons-new.png") no-repeat -104px -22px;
+						position:absolute; top:50%; left:10px; overflow:hidden; display:block; margin-top:-8px;
+					}
+
+/******************** msg-wrap  end*************************/
+
+/******************** mc start *************************/
+.mc {overflow:visible;}
+.form .item-fore1, .form .item-fore2 {width:304px; height:38px; border:1px solid #bdbdbd;}
+.form .item-fore1, .form .item-fore2 {z-index:6;}
+.form .item {margin-bottom:20px; position:relative; z-index:4;}
+.form .item .login-label {background:url("../img/pwd-icons-new.png") no-repeat 0 0;border-right:1px solid #bdbdbd; height:38px; width:38px; position:absolute; top:0; left:0;}
+.form .itxt {border:0 none; float:none; font-size:14px; font-family:"宋体"; width:254px; height:18px; line-height:18px; overflow:hidden; padding:10px 0 10px 50px;}
+
+.form .item .pwd-label {background-position:-48px 0;}
+.form input[type="password"] {font-family:Tahoma,Helvetica,Arial;}
+
+
+.form .item-fore3 {margin-bottom:15px; z-index:5;}
+.form .item-fore3 .safe {color:#666; position:relative;}
+.form .item-fore3 .safe span {margin-right:15px;}
+.form .jdcheckbox, .form .jdradio {margin:0 3px 0 0;vertical-align:middle; float:none; padding:0;}
+.form .item-fore3 .safe .forget-pw-safe {position:absolute; top:0; right:0; margin:0;}
+.login-form .login-box .login-btn {border:1px solid #cb2a2d; height:33px; margin:0 auto; position:relative;}
+.btn-img, .button {cursor:pointer; margin:0;padding:0;text-align:center;}
+.login-form .login-box .login-btn .btn-img {border:1px solid #e85356; background:#e4393c; color:#fff; height:31px; width:302px;
+												line-height:31px; display:block; font-size:20px; font-family:"微软雅黑";}
+
+.login-form .login-box .coagent {height:auto; line-height:22px;}												
+.login-form .login-box .coagent h5 {color:#999; font-weight:400; font-size:12px;}												
+.login-form .login-box .coagent ul::after {clear:both;content:".";display:block;height:0;visibility:hidden;}
+.login-form .login-box .coagent ul {display:block;}
+.login-form .login-box .coagent li {float:left;}
+.login-form .login-box .coagent li .line {color:#ccc; padding:0 10px;}
+
+
+.login-form .btn-2qrcode {width:60px; height:60px; display:block; overflow:hidden; position:absolute; right:0;bottom:0;
+							background:url("../img/login-qricon-01.png") no-repeat -60px 0;line-height:99em;
+						}												
+			
+												
+/******************** mc  end *************************/
+/************************ login form  end ***************************/
+
+/************************ login-banner start ***************************/
+.login-wrap {height:475px; margin:10px 0 20px; position:relative; z-index:5;}
+.login-wrap .i-inner {height:475px; position:relative; z-index:3;}
+/************************ login-banner  end ***************************/
+
+/****************************************** content  end **********************************************/
+
+/****************************************** footer start **********************************************/
+.ar{text-align:right;}
+.q-link {color:#999; position:relative; top:-10px;}
+.q-link b {width:18px; height:14px; display:inline-block;background:url("../img/q-icon.png") no-repeat; margin:0 5px; overflow:hidden;vertical-align:middle;}
+#footer-2013 {padding-bottom:30px; text-align:center;}
+#footer-2013 .links a {margin:0 10px}
+#footer-2013 .copyright {margin:10px 0px}
+/****************************************** footer  end **********************************************/
+
+
+
+
+
+
+
+
+

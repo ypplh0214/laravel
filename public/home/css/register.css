@@ -1,0 +1,188 @@
+
+/******************************** 公共样式 ***********************************/
+html,span,body,div,dl,dd,ul,li,i,a,h1,h3,h2,h4,h5,h6,img,label,form,p,i{margin:0;padding:0;}
+.clear, .clr { clear: both;  display: block;  font-size: 0;  height: 0;  line-height: 0;  overflow: hidden;}
+ol,ul,li{list-style: outside none none;}
+body { margin:0 auto; color:#333;  font-size:12px; font-family:Arial,"宋体",Lucida,Verdana,Helvetica,sans-serif;line-height:150%;}
+body,#regist .mt {background:#f2f2f2;}
+a {  color: #666;  text-decoration: none;}
+a:hover {  color: #c81623;}
+img {border:0 none; vertical-align:middle;}
+h2,h3 {font-family:"microsoft yahei"; font-weight:normal;}
+em,i,u {font-style:normal;}
+
+.clearfix::after {clear:both; content:"."; display:block;height:0;visibility:hidden;}
+.m .mt {overflow:hidden;}
+
+.w {margin:0 auto; width:990px; padding:0;}
+
+/****************************************** top nav stat **********************************************/
+
+/******************************** 公共样式 ***********************************/
+#shortcut-2013 li {height:30px; padding:0 11px 0 12px;}
+.lh li , .lh dl , .lh item {float:left;}
+.ld {position:relative;}
+.ld s, .ld b, .ld .block {overflow:hidden; position:absolute;}
+#shortcut-2013 .fl b,#shortcut-2013 .fr b {background-image:url("../img/20130330A.png");background-repeat:no-repeat;}
+a:link ,a:visited {color:#333;}
+a:hover,a:active {color:#f00;}
+#shortcut-2013 li s {width:0; height:12px; border-left:1px solid #ddd; overflow:hidden; top:9px; left:0;}
+#shortcut-2013 li b {width:7px; height:4px; top:13px; right:4px; background:url("../img/20130330A.png") no-repeat -95px -55px;}
+
+/******************************** 公共样式 ***********************************/
+#shortcut-2013,#shortcut-2013 .w{height:30px; background:#fafafa;}
+#shortcut-2013 {border-bottom:1px solid #eee; line-height:30px; width:100%;}
+
+#shortcut-2013 .fl {float:left; overflow:visible}
+#shortcut-2013 .fl  .fore1 {padding-left:16px; z-index:1;}
+#shortcut-2013 .fl b {height:13px; width:13px; background-position:-90px -23px; cursor:pointer;position:absolute; top:8px; left:0px; }
+#shortcut-2013 .fl a {color:#333 }
+
+#shortcut-2013 .fr {height:30px; overflow:visible;}
+#shortcut-2013 .fr {float:right;}
+#loginbar a{margin-left:5px;}
+
+#shortcut-2013 .menu {width:60px; z-index:10;}
+
+/****************************************** top nav end **********************************************/
+
+
+/****************************************** logo start **********************************************/
+
+#logo {padding:10px 0; position:relative;}
+#logo b {width:111px; height:46px; background:url(../img/regist-word.png) no-repeat;position:absolute; left:180px; top:18px;}
+
+
+
+/******************************************* logo end **********************************************/
+
+/****************************************** regist start **********************************************/
+/******************************** 公共样式 ***********************************/
+#regist .mt, #regist .mt h2 ,#regist .mt span {height:32px; line-height:32px;}
+/******************************** 公共样式 ***********************************/
+
+
+/******************************** mt start ***********************************/
+#regist {margin-bottom:10px;}
+#regist .mt {border-bottom:1px solid #ddd;margin-bottom:-1px; overflow:visible; padding-right:10px; position:relative;}
+#regist .tab {height:33px; padding-left:277px;overflow:hidden;}
+#regist .tab li {background:#f7f7f7; border:1px solid #ddd; width:100px; height:28px; line-height:28px;
+					color:#f79100;font-size:14px;text-align:center; margin-right:5px; margin-top:3px;
+			}
+#regist .tab li, .tab-item{float:left; text-align:center;}
+#regist .tab li a {display:block; height:34px; width:100px;}
+#regist .tab .curr {background:#fff; border-bottom:medium none; box-shadow:2px 0 2px #ddd; color:#e4393c; font-weight:bold;
+						height:32px; line-height:32px; margin-top:0;position:relative;
+				}
+#regist .tab .fore {width:224px;}
+#regist .tab .fore a {width:224px;}
+
+.ftx13, .flk13 a:link,.flk13 a:visited,a.flk13:link,a.flk13:visited {color:#005aa0;}
+#regist .mt .extra {float:right; position:absolute; right:20px; top:5px;}
+#regist .mt span {float:right; text-align:right;}
+
+/******************************** mt end ***********************************/
+
+/******************************** mc start ***********************************/
+/******************************** 公共样式 ***********************************/
+.m, .mt , .mc, .mb {overflow:hidden;}
+#regist .item {height:60px; line-height:34px; padding-top:9px; position:relative;}
+.form label, form input, .form select, .form textarea, .form button, .form .label{float:left;font-size:12px;}
+.form .item {overflow:hidden;}
+
+/******************************** 公共样式 ***********************************/
+
+/******************************* select-regName start **********************/
+#regist .mc {border-color:#ddd; border-style:solid; border-width:0 1px 1px; padding:30px 0 20px;background:#fff;}
+.mc .form {position:relative; width:750px; float:left;}
+#select-regName {overflow:visible;}
+#regist #select-regName {z-index:5;}
+#regist .label { display:inline-block;color:#999; font-size:14px; padding-right:10px; text-align:right; width:190px;}
+#regist .label b, .thickbox-form .label b {font-weight:normal; margin-right:5px;}
+.ftx04, .flk04 a:link, .flk04 a:visited, a.flk04:link, a.flk04:visited {color:#f00;}
+
+#regist .item .item-ifo, .thickbox-form .item .item-ifo{position:relative; width:270px;}
+body .fl {float:left;}
+
+#regist .text, .thickbox-form .text {border:1px solid #ccc; float:left; font-family:arial,"宋体"; font-size:14px; height:16px;
+										width:238px; padding:10px 25px 10px 5px; overflow:hidden;
+								}
+.o-intelligent-regName {z-index:3;}
+#regist .item-ifo .i-name, .thickbox-form .item-ifo .i-name {width:16px; height:16px; background:url("../img/one4.jpg") no-repeat;top:9px;}
+#regist .item-ifo i, .thickbox-form .item-ifo i {position:absolute; right:8px;}
+/******************************* select-regName end **********************/
+
+/******************************* o-password start **********************/
+
+#regist .item-ifo .i-pass, .thickbox-form .item-ifo .i-pass {width:16px; height:20px; background:url("../img/one5.jpg") no-repeat;top:9px;}
+#regist .item-ifo i, .thickbox-form .item-ifo i {position:absolute; right:8px;}
+
+
+/******************************** o-password end **********************/
+
+/******************************* dphone start **********************/
+
+#regist .item-ifo .i-phone, .thickbox-form .item-ifo .i-pass {width:16px; height:22px; background:url("../img/one6.jpg") no-repeat;top:9px;}
+#regist .item-ifo i, .thickbox-form .item-ifo i {position:absolute; right:8px;}
+.ml5 {margin-left:5px;}
+.ftx03, .ftx-03 {color:#999;}
+.ftx05 , .ftx-05, a.ftx-05:link, a.ftx-05:visited {color:#005ea7;}
+
+/******************************** dphone end **********************/
+
+/******************************* dphone start **********************/
+#regist .text-1 {float:left; width:100px;}
+#sendMobileCode {float:left;margin-right:0;}
+.btn , .btn-comm {background:#f4f4f4; border:1px solid #ddd; display:inline-block; height:36px; line-height:36px;
+					margin-left:10px; margin-top:0;padding:0;text-align:center;width:106px;
+			}
+/******************************** dphone end **********************/
+
+/******************************** authcode start **********************/
+#authcode.text{color:#333; float:left;}
+.ftx23, .flk23 a:link, .flk23 a:visited, a.flk23:link, a.flk23:visited {color:#999;}
+#regist .img img{height:26px; margin:0 5px;}
+#regist #authcodeDiv .item-ifo{width:380px;}
+/********************************* authcode end **********************/
+
+/********************************* checkbox start **********************/
+#regist .item-new {height:49px; padding-top:0;}
+#regist .checkbox {margin-top:11px;}
+#regist a.blue:link,#regist a.blue:visited {color:#005aa0;}
+/********************************* checkbox end **********************/
+
+/********************************* button start **********************/
+#regist .btn-regist {border:0 none; color:#fff; display:inline-block;font-size:14px;font-weight:bold;text-align:center;
+						padding-bottom:5px; background:url("../img/hover-btn.jpg") no-repeat; font-family:"microsoft yahei";
+						height:36px; width:270px; overflow:hidden;text-indent:-9999px;cursor:pointer;
+				}
+/********************************* button end **********************/
+
+/********************************* mc end ***********************************/
+
+/********************************* phone start ***********************************/
+.phone {float:left;height:182px; margin-top:9px; width:220px; }
+/********************************* phone end ***********************************/
+
+/******************************************* regist end **********************************************/
+
+/******************************************* footer start **********************************************/
+#footer-2013 {padding-bottom:30px; text-align:center;}
+#footer-2013 .links a {margin:0 10px}
+#footer-2013 .copyright {margin:10px 0px}
+
+/******************************************* footer end **********************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
